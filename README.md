@@ -33,10 +33,27 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+- [DynamicTextView.java](app/src/main/java/com/gzeinnumer/dynamictextview/DynamicTextView.java)
+- [item_dynamic_textview.xml](app/src/main/res/layout/item_dynamic_textview.xml)
 
+If you want to custome text style, make sure you have this id `tv_title` and `tv_content`.
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    ... >
 
+    <TextView
+        android:id="@+id/tv_title"
+        ...
+        />
 
+    <TextView
+        android:id="@+id/tv_content"
+        ...
+        />
+</LinearLayout>
+```
 
 ---
 
